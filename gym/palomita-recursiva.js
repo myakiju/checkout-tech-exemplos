@@ -4,13 +4,8 @@ function numeroExtenso(numero) {
   if (numeros[numero]) {
     return numeros[numero] === "cem" ? "cento" : numeros[numero];
   } else {
-    if (numero < 100) {
-      const resto = numero % 10
-      return `${numeroExtenso(numero - resto)} e ${numeroExtenso(resto)}`
-    } else {
-      const resto = numero % 100
-      return `${numeroExtenso(numero - resto)} e ${numeroExtenso(resto)}`
-    }
+    const resto = numero < 100 ? numero % 10 : numero % 100
+    return `${numeroExtenso(numero - resto)} e ${numeroExtenso(resto)}`
   }
 }
 
