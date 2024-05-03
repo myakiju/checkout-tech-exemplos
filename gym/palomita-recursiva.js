@@ -1,12 +1,10 @@
 const numeros = require('./numbers')
-
 function numeroExtenso(numero) {
   if (numeros[numero]) {
     return numeros[numero] === "cem" ? "cento" : numeros[numero];
-  } else {
-    const resto = numero < 100 ? numero % 10 : numero % 100
-    return `${numeroExtenso(numero - resto)} e ${numeroExtenso(resto)}`
   }
+  const resto = numero < 100 ? numero % 10 : numero % 100
+  return `${numeroExtenso(numero - resto)} e ${numeroExtenso(resto)}`
 }
 
 
