@@ -1,0 +1,7 @@
+- escrever a lógica em portugues nos comentários
+	- determinar os cenários
+		- o numero existe no objeto
+		- se o numero não existir
+			- quebrar dezenas
+			- quebrar centenas
+	- determinar quais os passos para resolver o problema
