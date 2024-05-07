@@ -1,7 +1,6 @@
-- escrever a lógica em portugues nos comentários
-	- determinar os cenários
-		- o numero existe no objeto
-		- se o numero não existir
-			- quebrar dezenas
-			- quebrar centenas
-	- determinar quais os passos para resolver o problema
+Crie uma função para traduzir numeros inteiros menores que 1000 para texto
+
+Exemplos: 
+- 11 deve retornar "onze"
+- 124 deve retornar "cento e vinte e quatro"
+- 76 deve retornar "setenta e seis"
