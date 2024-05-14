@@ -1,3 +1,6 @@
+## Tipos de Erros mais comuns, causas e soluções
+(traduzido do artigo - https://www.linkedin.com/pulse/common-javascript-errors-types-causes-solutions-dinesh-rawat/)
+
 JavaScript é uma das linguagens de programação mais amplamente utilizadas, alimentando desde páginas web simples até aplicações web complexas. Embora JavaScript seja uma linguagem poderosa e flexível, ela não está isenta de peculiaridades e armadilhas. Um dos problemas mais comuns que os desenvolvedores enfrentam ao trabalhar com JavaScript são os erros. Esses erros podem impedir que seu código funcione corretamente e podem ser frustrantes de depurar.
 
 Compreendendo esses erros e como preveni-los, você poderá escrever um código melhor e economizar tempo e dores de cabeça a longo prazo.
